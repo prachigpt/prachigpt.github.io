@@ -1,0 +1,26 @@
+<style>
+body {
+    background-color: lightblue;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column1 {
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    text-align: justify;
+    float: right;
+    width: 50%;
+    padding-right: 60px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    }
+.column2 {
+    float: left;
+    width: 40%;
+    padding-left: 40px;
+  }
+  </style>
